@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/RB Afshin.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Clock & Timer</title>
+</head>
+
+<body>
+    <div class="container__clock">
+        <main class="clock flex">
+            <section class="clock__time flex">
+                <div class="clock__day flex">
+                    <span class="clock__day-text"></span>
+                    <span>Day</span>
+                </div>
+                <div class="clock__hours flex">
+                    <span class="clock__hours-text"><b></b><b></b></span>
+                    <span>Hours</span>
+                </div>
+                <div class="clock__minutes flex">
+                    <span class="clock__minutes-text"><b></b><b></b></span>
+                    <span>Minutes</span>
+                </div>
+                <div class="clock__seconds flex">
+                    <span class="clock__seconds-text"><b>0</b><b>0</b></span>
+                    <span>Seconds</span>
+                </div>
+            </section>
+            <section class="clock__date">
+                <div class="clock__date-text">
+                    <span class="clock__date-text-year"></span>
+                    <span class="clock__date-text-month"></span>
+                    <span class="clock__date-text-day"></span>
+                </div>
+                <span class="bStop">StopWatch >></span>
+            </section>
+        </main>
+        <div class="stopWatch flex">
+            <div class="stopWatch__num flex">
+                <div class="stopWatch__hours flex">
+                    <span class="stopWatch__hours-text"><b>0</b><b>0</b></span>
+                </div>
+                <div class="stopWatch__minutes flex">
+                    <span class="stopWatch__minutes-text"><b>0</b><b>0</b></span>
+                </div>
+                <div class="stopWatch__seconds last flex">
+                    <span class="stopWatch__seconds-text"><b>0</b><b>0</b></span>
+                </div>
+            </div>
+            <div class="stopWatch__controller flex">
+                <button class="reset" disabled>
+                    Restart
+                </button>
+                <button class="start">
+                    Start
+                </button>
+                <button class="stop" disabled>
+                    Stop
+                </button>
+                <span class="bClock"><< Clock</span>
+            </div>
+        </div>
+    </div>
+    <script src="Js/all.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
